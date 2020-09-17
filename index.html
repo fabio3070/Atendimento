@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<script type="text/javascript" src="Sistema.js"></script>
+<head>
+	<title>SistemaDeAtendimento</title>
+</head>
+<body>
+
+
+	<div class="container">
+		<div class="atendimento">
+			<div class="pai">
+				<div id="senha1" class="senha">Balcão 1
+					<div id="nr_senha"></div>
+				</div>
+				<div id="senha2" class="senha">Balcão 2</div>
+				<div id="senha3" class="senha">Balcão 3</div>
+				<div id="senha4" class="senha">Balcão 4</div>
+			</div>
+			<!--atendimento-->
+			<div class="pai">
+				<div class="senha_balcao" id="senha_balcao_click1" value="1" onclick="clickBalcao(1)">Balcao 1</div>
+				<div class="senha_balcao" id="senha_balcao_click2" value="2" onclick="clickBalcao(2)">Balcao 2</div>
+				<div class="senha_balcao" id="senha_balcao_click3" value="3" onclick="clickBalcao(3)">Balcao 3</div>
+				<div class="senha_balcao" id="senha_balcao_click4" value="4" onclick="clickBalcao(4)">Balcao 4</div>
+			</div>
+			
+		</div>
+
+		<div class = "atendimento">
+			<div class="pai">
+				<div id ="senha_princ" >P- A00</div>
+				<div id ="senha_princ2" >G- A00</div>
+			</div>
+			<div class="pai">
+				<div id="senha_balcao1" class="senha_balcao" value="1" onclick="clickBotao(1)" >SENHA PRIORITÁRIA</div>
+				<div id="senha_balcao2" class="senha_balcao" value="2" onclick="clickBotao(2)" >SENHA GERAL</div>
+			</div>
+			
+		</div>
+	</div>
+
+</body>
+</html>

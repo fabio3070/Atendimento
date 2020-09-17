@@ -1,0 +1,79 @@
+.container
+{
+	width: 100%;
+	display:flex;
+	margin-left:30%;
+	margin-top:15%;
+	height: 20%;
+
+}
+
+.atendimento
+{
+	
+	border: 2px solid black;
+	padding-bottom: 3%;
+	background-color: blue;
+	border-radius: 20px;
+	border-width: 2px;
+	margin-left:10px;
+
+}
+
+.pai
+{	
+	display:flex;
+	padding-top:30px;
+	padding-left: 20px;
+
+
+}
+
+.senha
+{	
+	background-color: white;
+	margin-right: 15px;
+	border:2px solid black;
+	width: 80px;
+	height: 50px;
+	text-align: center;
+
+}
+
+.senha_balcao
+{	
+	background-color: lightgreen;
+	margin-right: 15px;
+	border:2px solid white;
+	width: 80px;
+	height: 50px;
+	text-align: center;
+	border-radius: 20px;
+	cursor: pointer;
+	color:white;
+
+}
+
+#senha_princ
+{	
+	background-color: white;
+	margin-right: 15px;
+	border:2px solid black;
+	width: 80px;
+	height: 50px;
+	text-align: center;
+
+}
+
+
+#senha_princ2
+{	
+	background-color: white;
+	margin-right: 15px;
+	border:2px solid black;
+	width: 80px;
+	height: 50px;
+	text-align: center;
+	
+
+}
